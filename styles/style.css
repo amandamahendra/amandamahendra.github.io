@@ -602,6 +602,7 @@ nav ul li a {
     position: relative;
     display: inline-block;
     padding-bottom: 7px;
+    transition: .1s;
 }
 
 .hover-text::after {
@@ -622,6 +623,7 @@ nav ul li a {
     color: #606060;
     transition: .2s ease-in-out;
     cursor: pointer;
+    transform: scale(1.04);
     
 }
 
